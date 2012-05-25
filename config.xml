@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.digitalbackcountry.example"
+        id        = "com.simbco.example"
         versionCode="10"
         version   = "1.0.0">
 
@@ -11,11 +11,11 @@
             A starter project for the ChildBrowser plugin
         </description>
 
-        <author href="https://blog.digitalbackcountry.com" email="ryan@adobe.com">
-            Ryan Stewart
+        <author href="https://simb.co" email="simeon@simb.co">
+            Simeon Batmean
         </author>
         
-        <preference name="phonegap-version" value="1.5.0" />
+        <preference name="phonegap-version" value="1.7.0" />
 
         <!-- if a single icon is specified then Build will use it for all platforms -->
         <icon src="icons/icon.png" />
@@ -49,7 +49,6 @@
         <feature name="http://plugins.phonegap.com/ChildBrowser/2.0.0" />
 
         <!-- This is the whitelist. For ChildBrowser to work correctly you need to enable domains here -->
-        <access origin="google.com" subdomains="true" />
-        <access origin="phonegap.com" subdomains="true" />        
-
+        <access origin="*" subdomains="true" />
+        
     </widget>
